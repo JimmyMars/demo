@@ -6,6 +6,6 @@ COPY ./demo-0.0.1-SNAPSHOT.jar /www/app.jar
 
 WORKDIR /www
 
-EXPOSE 8090
+EXPOSE 8088
 
 ENTRYPOINT ["java", "-jar", "./app.jar"]
